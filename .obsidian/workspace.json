@@ -1,0 +1,182 @@
+{
+  "main": {
+    "id": "dc7b6c385301145f",
+    "type": "split",
+    "children": [
+      {
+        "id": "e6668ed7f34f5109",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9513fda9d607138",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Math/Linear Algebra/3. 행렬과 선형 변환.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3. 행렬과 선형 변환"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7f83e17dd7061869",
+    "type": "split",
+    "children": [
+      {
+        "id": "f42d5019f47a0bec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f79cb8c6e9e7713",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "bb5722e9b9cc6a31",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "f06f16998ee52a57",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3854afc048cac642",
+    "type": "split",
+    "children": [
+      {
+        "id": "a34b3e52a977342f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "236d292736c8ff62",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Math/Linear Algebra/3. 행렬과 선형 변환.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "3. 행렬과 선형 변환 의 백링크"
+            }
+          },
+          {
+            "id": "e57a5e4c7cdb8781",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Math/Linear Algebra/3. 행렬과 선형 변환.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "3. 행렬과 선형 변환 의 나가는 링크"
+            }
+          },
+          {
+            "id": "a1fe8b6d78a459b3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "ae1f7cc3028f2f84",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Math/Linear Algebra/3. 행렬과 선형 변환.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "3. 행렬과 선형 변환 의 개요"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false
+    }
+  },
+  "active": "f9513fda9d607138",
+  "lastOpenFiles": [
+    "Math/Linear Algebra/4. 고유값과 고유벡터.md",
+    "Math/Linear Algebra/5. 특잇값 분해.md",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "Math/Linear Algebra/3. 행렬과 선형 변환.md",
+    "Math/Discrete/2. 그래프 기초와 표현.md",
+    "ML Foundations/머신러닝 최적화.md"
+  ]
+}
