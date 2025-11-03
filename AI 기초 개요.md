@@ -6,13 +6,14 @@
 ## 학습 로드맵
 | 단계 | 주제 | 핵심 질문 | 바로 가기 | 다음 이동 |
 | --- | --- | --- | --- | --- |
-| 1 | 수학 기초 | 선형대수·미적분·확률이 왜 필요한가? | [[Math/Linear Algebra/선형대수 핵심 개요]] | [[Math/Calculus/미분과 미분법]] |
-| 2 | 확률/통계·최적화 | 불확실성과 손실 최소화를 어떻게 다루나? | [[Math/Probability/확률과 통계 입문]] | [[Math/Optimization/최적화 기초]] |
-| 3 | 프로그래밍 기초 | Python과 자료구조를 어떻게 활용하나? | [[Programming/파이썬 기초]] | [[Programming/자료구조와 알고리즘]] |
-| 4 | ML 개념 | 지도/비지도/평가 지표는 무엇인가? | [[ML Foundations/학습 패러다임]] | [[ML Foundations/손실 함수와 평가 지표]] |
-| 5 | 최적화/정규화 | 학습 절차를 어떻게 안정화하나? | [[ML Foundations/머신러닝 최적화]] | [[ML Foundations/정규화와 일반화]] |
-| 6 | 연산자/그래프 | 핵심 연산자와 계산 그래프는 어떻게 동작하나? | [[Operators/선형 연산자]] | [[Math/Discrete/그래프 이론]] |
-| 7 | 다음 단계 | PyTorch Tensor, 모델링으로 어떻게 확장하나? | [[Tensor Hub]] | [[Modeling/Design Notes/Neural Network Modeling Roadmap]] |
+| 1 | 수학 기초 | 선형대수·미적분·확률이 왜 필요한가? | [[Math/Linear Algebra/1. 선형대수 핵심 개요]] | [[Math/Calculus/1. 미분과 미분법]] |
+| 2 | 확률/통계·최적화 | 불확실성과 손실 최소화를 어떻게 다루나? | [[Math/Probability/1. 확률과 통계 입문]] | [[Math/Optimization/1. 최적화 기초]] |
+| 3 | 프로그래밍 기초 | Python과 자료구조를 어떻게 활용하나? | [[Programming/1. 파이썬 기초]] | [[Programming/2. 자료구조와 알고리즘]] |
+| 4 | ML 개념 | 지도/비지도/평가 지표는 무엇인가? | [[ML Foundations/1. 학습 패러다임]] | [[ML Foundations/2. 손실 함수와 평가 지표]] |
+| 5 | 최적화/정규화 | 학습 절차를 어떻게 안정화하나? | [[ML Foundations/3. 머신러닝 최적화]] | [[ML Foundations/4. 정규화와 일반화]] |
+| 6 | 딥러닝 기초 | 심층 신경망은 어떤 구조와 학습 절차를 따르나? | [[DL Foundations/1. 신경망 기본 구조]] | [[DL Foundations/PyTorch Tensor]] |
+| 7 | 연산자/그래프 | 핵심 연산자와 계산 그래프는 어떻게 동작하나? | [[Operators/1. 선형 연산자]] | [[Math/Discrete/1. 그래프 이론]] |
+| 8 | 다음 단계 | 모델링으로 어떻게 확장하나? | [[DL Foundations/6. 시퀀스 모델 기초]] | [[Modeling/Design Notes/Neural Network Modeling Roadmap]] |
 
 ## 학습 전략
 - **Layered Approach**: 모르는 개념이 나오면 해당 단계 노트로 돌아가 요약을 확인하고, 필요 시 외부 자료를 추가로 링크합니다.

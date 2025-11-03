@@ -1,6 +1,6 @@
 # AI Basics - 딥러닝을 위한 수학·프로그래밍·ML 기초
 
-AI/딥러닝을 공부하면서 정리한 학습 노트입니다.
+AI/딥러닝을 공부하면서 정리한 Obsidian 전용 학습 노트입니다.
 
 ## 소개
 
@@ -135,19 +135,25 @@ ai_basics/
 ## 주요 노트 미리보기
 
 ### Math
-- [선형대수 핵심 개요](Math/Linear%20Algebra/선형대수%20핵심%20개요.md)
-- [미분과 미분법](Math/Calculus/미분과%20미분법.md)
-- [경사하강법과 변형](Math/Optimization/경사하강법과%20변형.md)
-- [확률과 통계 입문](Math/Probability/확률과%20통계%20입문.md)
+- [1. 선형대수 핵심 개요](Math/Linear%20Algebra/1.%20선형대수%20핵심%20개요.md)
+- [1. 미분과 미분법](Math/Calculus/1.%20미분과%20미분법.md)
+- [2. 경사하강법과 변형](Math/Optimization/2.%20경사하강법과%20변형.md)
+- [1. 확률과 통계 입문](Math/Probability/1.%20확률과%20통계%20입문.md)
 
 ### ML Foundations
-- [학습 패러다임](ML%20Foundations/학습%20패러다임.md)
-- [손실 함수와 평가 지표](ML%20Foundations/손실%20함수와%20평가%20지표.md)
-- [머신러닝 최적화](ML%20Foundations/머신러닝%20최적화.md)
+- [1. 학습 패러다임](ML%20Foundations/1.%20학습%20패러다임.md)
+- [2. 손실 함수와 평가 지표](ML%20Foundations/2.%20손실%20함수와%20평가%20지표.md)
+- [3. 머신러닝 최적화](ML%20Foundations/3.%20머신러닝%20최적화.md)
+- [4. 정규화와 일반화](ML%20Foundations/4.%20정규화와%20일반화.md)
+
+### Programming
+- [1. 파이썬 기초](Programming/1.%20파이썬%20기초.md)
+- [2. 자료구조와 알고리즘](Programming/2.%20자료구조와%20알고리즘.md)
 
 ### Operators
-- [선형 연산자](Operators/선형%20연산자.md)
-- [합성곱 연산자](Operators/합성곱%20연산자.md)
+- [1. 선형 연산자](Operators/1.%20선형%20연산자.md)
+- [2. 행렬 분해](Operators/2.%20행렬%20분해.md)
+- [3. 합성곱 연산자](Operators/3.%20합성곱%20연산자.md)
 
 ## 라이선스
 
