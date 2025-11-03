@@ -1,4 +1,4 @@
-# AI Basics - 딥러닝을 위한 수학·프로그래밍·ML 기초
+# AI Fundamentals - 딥러닝을 위한 수학·프로그래밍·ML·DL 기초
 
 AI/딥러닝을 공부하면서 정리한 Obsidian 전용 학습 노트입니다.
 
