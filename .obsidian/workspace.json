@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Operators/합성곱 연산자.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "합성곱 연산자"
             }
           }
         ]
@@ -169,11 +169,22 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "f9513fda9d607138",
+  "active": "2f79cb8c6e9e7713",
   "lastOpenFiles": [
-    "AGENTS.md",
+    "AGENTS.md.tmp.13573.1762135931531",
+    "CLAUDE.md.tmp.13573.1762135931297",
+    "README.md.tmp.13573.1762135931090",
+    "README.md.tmp.13573.1762135930886",
+    "README.md.tmp.13573.1762135930689",
+    "README.md.tmp.13573.1762135930507",
+    "README.md.tmp.13573.1762135930332",
+    "README.md.tmp.13573.1762135930164",
+    "README.md.tmp.13573.1762135930023",
+    "README.md.tmp.13573.1762135929874",
+    "README.md.tmp.13573.1762135929750",
+    "Operators/선형 연산자.md",
     "README.md",
-    "README.md.tmp.13573.1762135742851",
+    "AGENTS.md",
     "AI 기초 개요.md",
     "ML Foundations/학습 패러다임.md",
     "ML Foundations/정규화와 일반화.md",
@@ -184,7 +195,6 @@
     "Math/Linear Algebra/2. 벡터 공간과 기저.md",
     "Math/Optimization/1. 최적화 기초.md",
     "Operators/합성곱 연산자.md",
-    "Operators/선형 연산자.md",
     "Programming/파이썬 기초.md",
     "Programming/자료구조와 알고리즘.md",
     "Math/Linear Algebra/5. 특잇값 분해.md",
