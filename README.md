@@ -1,154 +1,72 @@
-# AI Fundamentals - AI 연구를 위한 수학·프로그래밍·ML·DL 기초
+# AI Fundamentals
 
-AI를 공부하면서 정리한 Obsidian 전용 학습 노트입니다.
+AI/딥러닝 기초 학습을 위한 Obsidian Vault입니다. 수학, 프로그래밍, 머신러닝 개념을 단계별로 정리했습니다.
 
-## 소개
+## 특징
 
-이 저장소는 Obsidian Vault로 관리하는 AI/딥러닝 기초 학습 노트입니다. 수학, 프로그래밍, 머신러닝 기초 개념을 단계별로 정리했습니다.
-
-### 특징
-
-- 정의 → 예제 → 실습 → 연습문제 순서로 구성
 - 수학 이론과 Python/PyTorch 실습 코드를 함께 제공
-- Obsidian 링크로 관련 개념들을 연결
-- 한국어로 작성 (영문 용어 병기)
+- 정의 → 예제 → 실습 → 연습문제 순서로 구성
+- Obsidian 링크로 관련 개념 연결
+- 한국어 작성 (영문 용어 병기)
 
 ## 저장소 구조
 
 ```
 ai_fundamentals/
 ├── 0. AI 분류 체계.md         # AI 전체 개념 지도
-├── AI 기초 개요.md            # 학습 로드맵
+├── AI 기초 개요.md            # 학습 로드맵 (시작은 여기서!)
 ├── Math/                      # 수학 기초
 │   ├── Linear Algebra/        # 선형대수
 │   ├── Calculus/              # 미적분
 │   ├── Probability/           # 확률과 통계
 │   ├── Optimization/          # 최적화 이론
-│   ├── Discrete/              # 그래프 이론
-│   ├── Analysis/              # 라플라스·푸리에·측도론 (Phase 2/4)
-│   ├── Numerical/             # 수치 선형대수 및 반복 솔버
-│   └── Reference/             # 용어집 및 참고자료
-├── Programming/               # 프로그래밍 기초
-│   ├── 1. 파이썬 기초.md
-│   └── 2. 자료구조와 알고리즘.md
-├── Foundations/               # ML/DL 기초 개념 (통합)
-│   ├── 1. 학습 패러다임.md
-│   ├── 2. 손실 함수와 평가 지표.md
-│   ├── 3. 최적화.md
-│   ├── 4. 정규화와 일반화.md
-│   ├── 5. 신경망 기본 구조.md
-│   ├── 6. 활성화 함수와 출력층 설계.md
-│   ├── 7. 역전파와 최적화 전략.md
-│   ├── 8. 합성곱 신경망 기초.md
-│   ├── 9. 시퀀스 모델 기초.md
-│   └── PyTorch Tensor.md
-├── Operators/                 # 핵심 연산자
-│   ├── 1. 선형 연산자.md
-│   ├── 2. 행렬 분해.md
-│   └── 3. 합성곱 연산자.md
+│   └── ...
+├── MLDL Basic/                # ML/DL 기초 개념 및 구현
+├── Programming/               # Python, 자료구조, 알고리즘
 └── CLAUDE.md                  # 노트 작성 가이드라인
 ```
 
-## 학습 로드맵
+## 학습 시작하기
 
-### 1단계: 수학 기초
-**핵심 질문**: 선형대수·미적분·확률이 왜 필요한가?
-- 시작: `Math/Linear Algebra/선형대수 핵심 개요.md`
-- 필수 개념: 벡터, 행렬, 고유값, 미분, 그래디언트
-- 활용: 신경망의 연산, 역전파, 파라미터 업데이트
+### 1. AI 전체 지형도 파악
+**[0. AI 분류 체계.md](0.%20AI%20분류%20체계.md)** 에서 AI의 전체 개념 지도를 확인하세요.
+- Rule-Based AI, Machine Learning, Deep Learning의 관계
+- 학습 패러다임 (지도/비지도/강화 등)
+- 실무 문제 해결 접근법
 
-### 2단계: 확률/통계·최적화
-**핵심 질문**: 불확실성과 손실 최소화를 어떻게 다루나?
-- 시작: `Math/Probability/확률과 통계 입문.md`
-- 필수 개념: 확률분포, 기댓값, 경사하강법, 볼록 최적화
-- 활용: 확률적 모델링, 손실 함수 최소화
+### 2. 학습 로드맵 따라가기
+**[AI 기초 개요.md](AI%20기초%20개요.md)** 에서 단계별 학습 경로를 확인하세요.
+- 9단계로 구성된 학습 로드맵
+- 각 단계별 핵심 질문과 필수 개념
+- 학습 전략 및 실습 가이드
 
-### 3단계: 프로그래밍 기초
-**핵심 질문**: Python과 자료구조를 어떻게 활용하나?
-- 시작: `Programming/파이썬 기초.md`
-- 필수 개념: NumPy, 자료구조, 알고리즘 복잡도
-- 활용: 데이터 처리, 효율적 구현
+## 설치 및 사용
 
-### 4단계: ML 기초 개념
-**핵심 질문**: 지도/비지도 학습과 평가 지표는 무엇인가?
-- 시작: `Foundations/1. 학습 패러다임.md`
-- 필수 개념: 훈련/검증/테스트, 손실 함수, 정확도/F1 스코어
-- 활용: 모델 학습 및 평가
+### Obsidian으로 보기 (권장)
+1. [Obsidian](https://obsidian.md/) 설치
+2. 저장소 클론
+   ```bash
+   git clone https://github.com/yourusername/ai_fundamentals.git
+   ```
+3. Obsidian에서 "Open folder as vault" → `ai_fundamentals` 폴더 선택
+4. `AI 기초 개요.md`에서 학습 시작
 
-### 5단계: 최적화/정규화
-**핵심 질문**: 학습 절차를 어떻게 안정화하나?
-- 시작: `Foundations/3. 최적화.md`
-- 필수 개념: SGD, Adam, 배치 정규화, 드롭아웃
-- 활용: 안정적이고 일반화된 모델 학습
-
-### 6단계: 신경망 기초
-**핵심 질문**: 심층 신경망은 어떻게 동작하나?
-- 시작: `Foundations/5. 신경망 기본 구조.md`
-- 필수 개념: MLP, 활성화 함수, 역전파
-- 활용: 딥러닝 모델 이해 및 구현
-
-### 7단계: 신경망 아키텍처
-**핵심 질문**: CNN, RNN은 어떻게 동작하나?
-- 시작: `Foundations/8. 합성곱 신경망 기초.md`
-- 필수 개념: 합성곱, 풀링, 시퀀스 모델
-- 활용: 이미지/텍스트 처리 모델
-
-### 8단계: 연산자/그래프
-**핵심 질문**: 핵심 연산자와 계산 그래프는 어떻게 동작하나?
-- 시작: `Operators/1. 선형 연산자.md`
-- 필수 개념: 선형 변환, 합성곱, 계산 그래프
-- 활용: PyTorch 연산 이해, 자동 미분
-
-### 9단계: 분석/수치 심화 (예정)
-**핵심 질문**: 미분방정식·푸리에·측도·수치 선형대수가 최신 딥러닝과 어떻게 연결되는가?
-- 시작: `Math/Analysis/1. 라플라스 변환과 미분방정식.md`
-- 필수 개념: 라플라스/푸리에 변환, 측도론, 반복법·조건수, Laplace Approximation
-- 활용: Neural ODE·PINN, Bayesian Deep Learning, Spectral CNN, DEQ/Implicit Layer 해석
+### 다른 방법
+- **GitHub**: 웹에서 각 파일 탐색
+- **로컬 에디터**: VS Code, Typora 등 Markdown 에디터 사용
 
 ## 노트 구조
 
 각 노트는 다음 구조로 작성됩니다:
 
-1. **TL;DR**: 핵심 요약
-2. **핵심 개념**: 정의, 정리, 설명
-3. **수학적 전개**: 정리 증명 및 유도 (필요시)
-4. **예제**: 구체적인 예제
-5. **실습 예제**: Python/NumPy/PyTorch 코드
-6. **연습 문제**: 난이도별 문제
+1. **TL;DR**: 핵심 요약 (3-5줄)
+2. **핵심 개념**: 정의, 정리, 직관적 설명
+3. **수학적 전개**: 증명 및 유도 (필요시)
+4. **예제**: 손으로 풀 수 있는 작은 예제
+5. **실습 예제**: 실행 가능한 Python/PyTorch 코드
+6. **연습 문제**: 난이도별 3-5개
 7. **참고 자료**: 교과서, 논문, 강의 링크
 8. **다음 학습 경로**: 관련 노트 링크
-
-## 시작하기
-
-### Obsidian으로 보기
-1. [Obsidian](https://obsidian.md/) 설치
-2. 저장소 클론
-   ```bash
-   git clone https://github.com/yourusername/ai_basics.git
-   ```
-3. Obsidian에서 "Open folder as vault" → `ai_basics` 폴더 선택
-4. `0. AI 분류 체계.md`에서 AI 전체 지형도를 먼저 보거나, `AI 기초 개요.md`에서 학습 로드맵으로 시작
-
-### GitHub에서 보기
-- `0. AI 분류 체계.md`에서 AI 전체 개념 지도를 먼저 확인
-- `AI 기초 개요.md`에서 학습 로드맵 확인 후 필요한 노트로 이동
-
-### 로컬에서 보기
-- VS Code, Typora 등 Markdown 에디터 사용
-
-## 학습 전략
-
-### Layered Approach
-- 모르는 개념이 나오면 해당 단계 노트로 돌아가서 요약 확인
-- 필요 시 참고 자료 섹션의 외부 링크 활용
-
-### 실습 병행
-- 수학 노트에서도 간단한 NumPy/PyTorch 코드로 개념 구현
-- ML 노트에서는 실제 데이터셋으로 미니 프로젝트 수행
-
-### 용어 정리
-- `Math/Reference/개념 용어집.md`에서 용어 빠르게 조회
-- 각 노트 말미의 참고 자료에서 심화 학습
 
 ## 기여
 
@@ -160,42 +78,7 @@ ai_fundamentals/
 - 실행 가능한 코드 제공
 - 관련 노트와 링크 연결
 
-## 주요 노트 미리보기
-
-### 시작점
-- [0. AI 분류 체계](0.%20AI%20분류%20체계.md) - AI 전체 개념 지도
-- [AI 기초 개요](AI%20기초%20개요.md) - 학습 로드맵
-
-### Math
-- [1. 선형대수 핵심 개요](Math/Linear%20Algebra/1.%20선형대수%20핵심%20개요.md)
-- [1. 미분과 미분법](Math/Calculus/1.%20미분과%20미분법.md)
-- [2. 경사하강법과 변형](Math/Optimization/2.%20경사하강법과%20변형.md)
-- [1. 확률과 통계 입문](Math/Probability/1.%20확률과%20통계%20입문.md)
-- [6. 벡터 미적분](Math/Calculus/6.%20벡터%20미적분.md)
-- [5. 베이지안 추론](Math/Probability/5.%20베이지안%20추론.md)
-- [7. 저랭크 근사와 행렬 분해](Math/Linear%20Algebra/7.%20저랭크%20근사와%20행렬%20분해.md)
-- [1. 라플라스 변환과 미분방정식](Math/Analysis/1.%20라플라스%20변환과%20미분방정식.md)
-
-### Foundations (ML/DL 통합)
-- [1. 학습 패러다임](Foundations/1.%20학습%20패러다임.md)
-- [2. 손실 함수와 평가 지표](Foundations/2.%20손실%20함수와%20평가%20지표.md)
-- [3. 최적화](Foundations/3.%20최적화.md)
-- [4. 정규화와 일반화](Foundations/4.%20정규화와%20일반화.md)
-- [5. 신경망 기본 구조](Foundations/5.%20신경망%20기본%20구조.md)
-- [6. 활성화 함수와 출력층 설계](Foundations/6.%20활성화%20함수와%20출력층%20설계.md)
-- [7. 역전파와 최적화 전략](Foundations/7.%20역전파와%20최적화%20전략.md)
-- [8. 합성곱 신경망 기초](Foundations/8.%20합성곱%20신경망%20기초.md)
-- [9. 시퀀스 모델 기초](Foundations/9.%20시퀀스%20모델%20기초.md)
-- [PyTorch Tensor](Foundations/PyTorch%20Tensor.md)
-
-### Programming
-- [1. 파이썬 기초](Programming/1.%20파이썬%20기초.md)
-- [2. 자료구조와 알고리즘](Programming/2.%20자료구조와%20알고리즘.md)
-
-### Operators
-- [1. 선형 연산자](Operators/1.%20선형%20연산자.md)
-- [2. 행렬 분해](Operators/2.%20행렬%20분해.md)
-- [3. 합성곱 연산자](Operators/3.%20합성곱%20연산자.md)
+자세한 작성 가이드라인은 [CLAUDE.md](CLAUDE.md)를 참고하세요.
 
 ## 라이선스
 
@@ -203,9 +86,9 @@ ai_fundamentals/
 
 ## 문의
 
-- 이슈 등록: [GitHub Issues](https://github.com/yourusername/ai_basics/issues)
+- 이슈 등록: [GitHub Issues](https://github.com/yourusername/ai_fundamentals/issues)
 - 개선 제안: Pull Request 환영
 
 ---
 
-*Last updated: 2025-11-03*
+*Last updated: 2025-11-04*
