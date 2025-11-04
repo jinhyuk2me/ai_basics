@@ -30,6 +30,7 @@ ai_fundamentals/
 │   └── ...
 ├── MLDL Basic/                # ML/DL 기초 개념 및 구현
 ├── PyTorch/                   # PyTorch 실습 노트
+├── TensorFlow/                # TensorFlow 실습 노트
 └── CLAUDE.md                  # 노트 작성 가이드라인
 ```
 

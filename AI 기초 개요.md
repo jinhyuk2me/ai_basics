@@ -123,6 +123,7 @@
 - [[MLDL Basic/6. 활성화 함수와 출력층 설계]]: ReLU, Sigmoid, Softmax
 - [[MLDL Basic/7. 역전파와 최적화 전략]]: 연쇄 법칙, 자동 미분
 - [[PyTorch Tensor]]: Tensor 기본 연산
+- [[TensorFlow/TensorFlow Overview]]: TensorFlow 학습 로드맵
 
 **왜 필요한가?**
 - 딥러닝의 기본 구성 요소
